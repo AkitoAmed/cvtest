@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <!-- INFOS PROFIL -->
+    <p>Nom : Robotnik</p>
+    <p>Prénom : Julian Ivo</p>
+    <p>Adresse : J'en ai pas</p>
+    <p>Téléphone : Secret</p>
+    <figure>
+        <img src="Eggman.jfif" alt="Eggman">
+        <figcaption>Photo de Moi</figcaption>
+    </figure>
+
+    <!-- TITRE DEV WEB -->
+    <h1>Développeur Web</h1>
+    <hr>
+
+    <!-- MENU -->
+    <h2 class="menuTitre">Menu</h2>
+    <ul>
+        <li><a href="#ExpPro"> Expériences Professionnelles</a></li>
+        <li><a href="#Form"> Formations</a></li>
+        <li><a href="#Prtf"> Portfolio</a></li>
+        <li><a href="#Cont"> Contact</a></li>
+    </ul>
+    <hr>
+
+    <!-- A PROPOS -->
+    <p class="prop"><b>À propos :</b> Monsieur, un naturel <b>réfléchi</b> et <span class="orga">organisé</span>, capable de m'adapter à une nouvelle équipe rapidement, ainsi qu'un poste. Autodidacte, j'apprend vite et je serais ravi et prêt à pouvoir montrer mes qualites à l'action dans votre entreprise</p>
+    <hr>
+
+    <!-- EXPERIENCES PROFESSIONNELLES -->
+    <h2 id="ExpPro"> Expériences Professionnelles </h2>
+    <table cellpadding="5">
+        <tr>
+           <td><b>2016-2018</b></td>
+           <td><b>Développeur Web Front</b></td>
+           <td>Intégration et test pour l'appli de la marque Chanel</td> 
+        </tr>
+        <tr class="green">
+            <td><b>2018-2019</b></td>
+            <td><b>Développeur Web Back</b></td>
+            <td>Création Base de Données pour l'entreprise Dailymotion</td>
+        </tr>
+        <tr>
+            <td><b>2019-2021</b></td>
+            <td><b>Développeur Web Fullstack</b></td>
+            <td>Création du nouveau site de Google</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- FORMATIONS -->
+    <h2 id="Form" class="formi">Formations</h2>
+    <ol>
+        <li class="scp"><b>2009-2014 :</b> Master en économie Science-Po</li>
+        <li class="artis"><b>2014-2014 :</b> Formation Artis à Simplon</li>
+        <li><b>2015-2016 :</b> Formation Développeur à Simplon</li>
+    </ol>
+    <hr>
+
+    <!-- PORTFOLIO -->
+    <h2 id="Prtf" class="ptfo">Portfolio</h2>
+    <p>Voici mon Travail</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6vJwwRUtwMw" title="CG5 - Never Gonna Give You Up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Voici le lien vers <a href="https://twitter.com/StyleAkito93120">mon site web</a></p>
+    <hr>
+
+    <!-- CONTACT -->
+    <h2 id="Cont">Contact</h2>
+    
+    <form action="" class="violet">
+        <label for="Nom" >Nom</label>
+        <input type="text" name="Nom" id="nom">
+
+        <label for="Email" >Email</label>
+        <input type="text" name="Email" id="email">
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message..."></textarea>
+        <input type="submit" value="Envoyez">
+    </form>
+</body>
+</html>

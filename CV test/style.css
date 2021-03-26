@@ -1,0 +1,53 @@
+p,#Cont {
+    color: blue;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: skyblue;
+}
+
+h1,label {
+    color: white;
+}
+
+.menuTitre {
+    text-align: start;
+}
+
+.prop {
+    color: green;
+}
+
+.orga {
+    background-color: yellow;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.formi {
+    font-weight: normal;
+}
+
+.artis {
+    color: red;
+}
+
+.scp {
+    font-size: 25px;
+}
+
+#Prtf {
+    background: aqua;
+}
+
+form {
+    background: purple;
+}
